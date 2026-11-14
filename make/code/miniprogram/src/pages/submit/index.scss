@@ -1,0 +1,91 @@
+.submit {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding-bottom: 48px;
+
+  &__intro {
+    padding: 32px 24px 8px;
+
+    &-title {
+      display: block;
+      font-size: 34px;
+      font-weight: 600;
+      color: #1a2330;
+    }
+
+    &-desc {
+      display: block;
+      margin-top: 12px;
+      font-size: 24px;
+      color: #6b7684;
+      line-height: 1.6;
+    }
+  }
+
+  &__form {
+    margin: 24px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 8px 24px;
+  }
+
+  &__field {
+    padding: 20px 0;
+    border-bottom: 1px solid #eef2f6;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__label {
+    display: block;
+    font-size: 24px;
+    color: #5b6b7a;
+    margin-bottom: 12px;
+  }
+
+  &__input {
+    font-size: 28px;
+    color: #1a2330;
+  }
+
+  &__textarea {
+    width: 100%;
+    min-height: 120px;
+    font-size: 26px;
+    color: #1a2330;
+  }
+
+  &__placeholder {
+    color: #b3bcc6;
+  }
+
+  &__btn {
+    margin: 32px 24px 0;
+    background: #1f6feb;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 24px 0;
+    border-radius: 44px;
+
+    &--disabled {
+      background: #9dc0f5;
+    }
+  }
+
+  &__message {
+    margin: 24px 24px 0;
+    font-size: 26px;
+    color: #1f6feb;
+    text-align: center;
+  }
+
+  &__note {
+    margin: 32px 24px 0;
+    font-size: 22px;
+    color: #97a2af;
+    line-height: 1.6;
+  }
+}

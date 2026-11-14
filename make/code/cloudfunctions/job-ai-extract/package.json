@@ -1,0 +1,10 @@
+{
+  "name": "job-ai-extract",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "AI 结构化管线（B4）：对 collected 条目提取关键字段，低置信度强制转人工",
+  "dependencies": {
+    "wx-server-sdk": "^3.0.1"
+  }
+}

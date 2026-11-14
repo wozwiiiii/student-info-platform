@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+
+# 构建产物与缓存
+dist/
+.swc/
+.miniapp/
+deploy_versions/
+.temp/
+.rn_temp/
+coverage/
+*.tsbuildinfo
+
+# 本地环境与密钥（真实密钥只放 .env.local，禁止入库）
+.env
+.env.local
+*.local
+*.pem
+*.key
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+*.log

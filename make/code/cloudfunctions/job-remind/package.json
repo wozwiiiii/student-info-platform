@@ -1,0 +1,10 @@
+{
+  "name": "job-remind",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Deadline 临近提醒定时推送（A3/R11）：订阅消息 + 授权余量消耗 + 失败进看板",
+  "dependencies": {
+    "wx-server-sdk": "^3.0.1"
+  }
+}

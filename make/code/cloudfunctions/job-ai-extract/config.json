@@ -1,0 +1,9 @@
+{
+  "triggers": [
+    {
+      "name": "aiExtractTimer",
+      "type": "timer",
+      "config": "0 */10 * * * * *"
+    }
+  ]
+}

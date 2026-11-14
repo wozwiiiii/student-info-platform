@@ -1,0 +1,10 @@
+{
+  "name": "api-admin",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "管理端信息录入/审核/更新（单兵运营工作台后端）",
+  "dependencies": {
+    "wx-server-sdk": "^3.0.1"
+  }
+}

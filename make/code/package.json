@@ -1,0 +1,19 @@
+{
+  "name": "student-info-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "大学生信息数据中台：shared 共享层 + 云函数 + 小程序（miniprogram/）+ 管理后台（admin/）",
+  "scripts": {
+    "test": "vitest run",
+    "build:cloud": "node scripts/build-cloud.mjs"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.4.5",
+    "vitest": "^2.1.8"
+  }
+}

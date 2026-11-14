@@ -1,0 +1,10 @@
+{
+  "name": "api-info",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "公开信息读取（信息流/分类/详情，仅 published）",
+  "dependencies": {
+    "wx-server-sdk": "^3.0.1"
+  }
+}

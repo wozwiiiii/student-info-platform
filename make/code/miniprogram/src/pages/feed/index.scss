@@ -1,0 +1,26 @@
+.feed {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding-bottom: 32px;
+
+  &__state {
+    padding: 80px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__state-text {
+    font-size: 26px;
+    color: #97a2af;
+  }
+
+  &__retry {
+    font-size: 26px;
+    color: #1f6feb;
+    padding: 12px 40px;
+    background: #e8f1ff;
+    border-radius: 32px;
+  }
+}
