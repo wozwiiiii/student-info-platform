@@ -10,6 +10,8 @@ deploy_versions/
 .rn_temp/
 coverage/
 *.tsbuildinfo
+# 云函数构建产物（由 scripts/build-cloud.mjs 生成，部署前执行 npm run build:cloud）
+make/code/cloudfunctions/*/index.js
 
 # 本地环境与密钥（真实密钥只放 .env.local，禁止入库）
 .env
